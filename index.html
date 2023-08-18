@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>adoodevv</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -56,26 +56,38 @@
     <div class="container">
         <h1>Welcome</h1>
         <a class="link" href="https://github.com/adoodevv">
-            <i class="icon fab fa-github"></i>
+            <i class="icon fa fa-github" aria-hidden="true"></i>
             GitHub
         </a>
         <a class="link" href="https://twitter.com/adoodevv">
-            <i class="icon fab fa-twitter"></i>
+            <i class="icon fa fa-twitter" aria-hidden="true"></i>
             Twitter
         </a>
         <a class="link" href="https://instagram.com/adoodevv">
-            <i class="icon fab fa-instagram"></i>
+            <i class="icon fa fa-instagram" aria-hidden="true"></i>
             Instagram
         </a>
         <a class="link" href="https://www.linkedin.com/in/jonathan-adoo-22a4691b2">
-            <i class="icon fab fa-linkedin"></i>
+            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
             LinkedIn
         </a>
         <a class="link" href="https://adoojoey.hashnode.dev/">
-            <i class="icon fab fa-blog"></i>
+            <i class="icon fa fa-rss" aria-hidden="true"></i>
             Blog
         </a>
     </div>
+    <script>
+        const links =
+            document.querySelectorAll('.link');
+        links.forEach(link => {
+            link.addEventListener('mouseover', () => {
+                link.style.backgroundColor = '#e74c3c';
+            });
+            link.addEventListener('mouseout', () => {
+                link.style.backgroundColor = '#3498db';
+            });
+        });
+    </script>
 </body>
 
 </html>
