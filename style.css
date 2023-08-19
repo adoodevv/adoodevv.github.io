@@ -1,15 +1,21 @@
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
 .profile-picture{
     border-radius: 50%;
     width: 150px;
     height: 150px;
     object-fit: cover;
     margin-top: 20px;
+}
+
+.handle{
+    margin-top: 10px;
+    font-size: 23px;
+    color: #333;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -20,9 +26,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: auto;
-    background-color: #a9b7a9;
+    background-color: #b0c4a1;
 }
 
+.container {
+    text-align: center;
+    padding: 20px;
+}
 
 .links-list{
     list-style: none;
@@ -33,15 +43,9 @@ body {
     align-items: center;
 }
 
-.container {
-    text-align: center;
-    padding: 20px;
-}
-
 .link {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     font-size: 25px;
     margin: 10px 20px;
     padding: 10px 20px;
@@ -53,7 +57,7 @@ body {
 
 .link:hover {
     background-color: #2980b9;
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -65,12 +69,6 @@ body {
 .share-icon{
     font-size: 20px;
     margin-left: 70px;
-}
-
-.handle{
-    margin-top: 10px;
-    font-size: 23px;
-    color: #333;
 }
 
 .footer{
