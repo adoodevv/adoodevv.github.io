@@ -1,3 +1,9 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .profile-picture{
     border-radius: 50%;
     width: 150px;
@@ -13,9 +19,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #f2f5f8;
+    min-height: auto;
+    background-color: #a9b7a9;
 }
+
 
 .links-list{
     list-style: none;
@@ -24,22 +31,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
 }
 
 .container {
     text-align: center;
-    padding: 21px;
+    padding: 20px;
 }
 
 .link {
-    display: inline-block;
-    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 10px 20px;
     padding: 10px 20px;
     background-color: #3498db;
     color: #333;
     text-decoration:none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .link:hover {
@@ -49,8 +58,13 @@ body {
 }
 
 .icon {
-    font-size: 30px;
-    margin-right: 5px;
+    font-size: 45px;
+    margin-right: 70px;
+}
+
+.share-icon{
+    font-size: 20px;
+    margin-left: 70px;
 }
 
 .handle{
@@ -68,6 +82,14 @@ body {
 }
 
 @media(max-width: 768px) {
+    body {
+        min-height: 100vh;
+    }
+
+    .container{
+        padding: 10px;
+    }
+
     .link {
         margin: 5px;
         padding: 5px 10px;
