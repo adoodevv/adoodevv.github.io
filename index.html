@@ -5,51 +5,7 @@
     <meta charset="UTF-8">
     <title>adoodevv</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f0f0;
-        }
-
-        .container {
-            text-align: center;
-            padding: 21px;
-        }
-
-        .link {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .link:hover {
-            background-color: #2980b9;
-            transform: scale(1.05);
-        }
-
-        .icon {
-            font-size: 24px;
-            margin-right: 5px;
-        }
-
-        @media(max-width: 768px) {
-            .link {
-                margin: 5px;
-                padding: 5px 10px;
-                font-size: 14px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -76,18 +32,7 @@
             Blog
         </a>
     </div>
-    <script>
-        const links =
-            document.querySelectorAll('.link');
-        links.forEach(link => {
-            link.addEventListener('mouseover', () => {
-                link.style.backgroundColor = '#e74c3c';
-            });
-            link.addEventListener('mouseout', () => {
-                link.style.backgroundColor = '#3498db';
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
