@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .container {
@@ -45,6 +45,7 @@ body {
 .link:hover {
     background-color: #2980b9;
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .icon {
@@ -54,14 +55,14 @@ body {
 
 .handle{
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 23px;
     color: #333;
 }
 
 .footer{
     text-align: center;
     padding: 10px 10px;
-    font-size: 12px;
+    font-size: 10px;
     border-radius: 5px;
     color: #333;
 }
