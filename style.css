@@ -84,8 +84,28 @@ body {
         min-height: 100vh;
     }
 
-    .container{
+    .container {
         padding: 20px;
         text-align: center;
     }
+
+    .profile-picture {
+    width: 100px;
+    height: 100px;
+    }
+
+    .link {
+    font-size: 18px;
+    }
+ 
+    .icon {
+    font-size: 35px;
+    margin-right: 50px;
+    }
+
+    .share-icon{
+    font-size: 10px;
+    margin-left: 50px;
+    }
+
 }
