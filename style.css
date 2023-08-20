@@ -4,6 +4,7 @@
     height: 150px;
     object-fit: cover;
     margin-top: 20px;
+    margin: 0 auto;
 }
 
 .handle{
@@ -14,7 +15,6 @@
 
 ul{
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .container {
     text-align: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 .links-list{
@@ -73,24 +73,27 @@ body {
 
 .footer{
     text-align: center;
-    padding: 10px 10px;
+    padding: 20px;
     font-size: 10px;
     border-radius: 5px;
     color: #333;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 480px) {
     body {
         min-height: 100vh;
     }
 
     .container{
-        padding: 10px;
+        padding: 20px;
     }
 
     .link {
         margin: 5px;
         padding: 5px 10px;
-        font-size: 14px;
+        font-size: 18px;
+    }
+    .handle {
+        font-size: 20px;
     }
 }
