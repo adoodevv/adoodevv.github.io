@@ -73,27 +73,49 @@ body {
 
 .footer{
     text-align: center;
-    padding: 20px;
+    padding: 10px 10px;
     font-size: 10px;
     border-radius: 5px;
     color: #333;
 }
 
-@media(max-width: 480px) {
+@media(max-width: 768px) {
     body {
         min-height: 100vh;
     }
 
     .container{
         padding: 20px;
+        text-align: center;
     }
 
     .link {
         margin: 5px;
-        padding: 5px 10px;
+        padding: 15px 20px;
         font-size: 18px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .handle {
-        font-size: 20px;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    .links-list {
+        margin-top: 30px;
+    }
+    .icon {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    .share-icon {
+        font-size: 18px;
+        margin-left: 5px;
     }
 }
