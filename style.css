@@ -99,6 +99,11 @@ body {
     width: 100px;
     height: 100px;
     }
+  .links-list {
+		width: 140px;
+		min-width: 140px;
+		
+	}
 
     .link {
     font-size: 18px;
