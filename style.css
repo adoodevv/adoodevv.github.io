@@ -44,6 +44,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 150px;
+  width: 150px;
+  
 }
 
 .link {
@@ -56,10 +59,6 @@ body {
   color: #333;
   text-decoration:none;
   border-radius: 10px;
-  width: 150px;
-	min-width: 150px;
-	
-  
 }
 
 .link:hover {
