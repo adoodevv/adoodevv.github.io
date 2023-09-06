@@ -44,19 +44,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-	width: 200px;
 }
 
 .link {
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    margin: 10px 20px;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #333;
-    text-decoration:none;
-    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #333;
+  text-decoration:none;
+  border-radius: 10px;
+  width: 150px;
+  
 }
 
 .link:hover {
