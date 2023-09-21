@@ -103,23 +103,17 @@ ul {
     }
 
     .profile-picture {
-        margin-top: -100px;
+        margin-top: -90px;
         width: 100px;
         height: 100px;
-    }
-
-    .link {
-        margin: 7px;
     }
 
     .name {
         margin-top: 5px;
         font-size: 20px;
-        color: #f0f0f0;
     }
     
     .description {
         font-size: 15px;
-        color: #f0f0f0;
     }
 }
