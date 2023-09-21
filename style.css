@@ -103,6 +103,7 @@ ul {
     }
 
     .profile-picture {
+        margin-top: -100px;
         width: 100px;
         height: 100px;
     }
@@ -118,7 +119,7 @@ ul {
     }
     
     .description {
-        font-size: 12px;
+        font-size: 15px;
         color: #f0f0f0;
     }
 }
