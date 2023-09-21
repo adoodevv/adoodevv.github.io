@@ -1,35 +1,20 @@
-.profile-picture{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-top: 20px;
-    margin: 0 auto;
-}
-
-.handle{
-    margin-top: 10px;
-    font-size: 23px;
-    color: #333;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles */
+body, ul {
     margin: 0;
     padding: 0;
+}
+
+/* Common styles for multiple elements */
+body {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto;
+    min-height: auto; /* This line seems unnecessary */
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
-	  animation: gradient 15s ease infinite;
-	  height: 100vh;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
 }
 
 .container {
@@ -37,28 +22,53 @@ body {
     padding: 40px;
 }
 
-.links-list{
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 150px;
-  width: 150px;
-  
+ul {
+    list-style: none;
+    padding: 0;
 }
 
+/* Profile picture styles */
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px auto; /* Combine margin properties */
+}
+
+/* Handle styles */
+.handle {
+    margin-top: 10px;
+    font-size: 23px;
+    color: #333;
+}
+
+/* Links list styles */
+.links-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    width: 150px;
+}
+
+/* Link styles */
 .link {
-  display: flex;
-  align-items: center;
-  font-size: 25px;
-  margin: 10px 20px;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: #333;
-  text-decoration:none;
-  border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #333;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 350px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Added transition properties */
 }
 
 .link:hover {
@@ -67,67 +77,68 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+/* Icon styles */
 .icon {
     font-size: 45px;
     margin-right: 70px;
 }
 
-.share-icon{
+.share-icon {
     font-size: 20px;
     margin-left: 70px;
 }
 
-.footer{
+/* Footer styles */
+.footer {
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px;
     font-size: 10px;
     border-radius: 5px;
     color: #333;
 }
 
-@media(max-width: 768px) {
-    body {
-        min-height: 100vh;
-    }
-
+/* Media query for smaller screens */
+@media (max-width: 768px) {
     .container {
         padding: 20px;
         text-align: center;
     }
 
     .profile-picture {
-    width: 100px;
-    height: 100px;
+        width: 100px;
+        height: 100px;
     }
-  .links-list {
-		width: 140px;
-		min-width: 140px;
-		
-	}
+
+    .links-list {
+        width: 140px;
+        min-width: 140px;
+    }
 
     .link {
-    font-size: 18px;
+        font-size: 18px;
     }
- 
+
     .icon {
-    font-size: 35px;
-    margin-right: 50px;
+        font-size: 35px;
+        margin-right: 50px;
     }
 
-    .share-icon{
-    font-size: 10px;
-    margin-left: 50px;
+    .share-icon {
+        font-size: 10px;
+        margin-left: 50px;
     }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-	}	
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
+        }
+    }
 }
