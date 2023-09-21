@@ -68,7 +68,7 @@ ul {
     color: #333;
     text-decoration: none;
     border-radius: 10px;
-    width: 350px;
+    width: 300px;
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
     /* Added transition properties */
 }
@@ -103,7 +103,7 @@ ul {
 @media (max-width: 768px) {
     .link {
         font-size: 18px;
-        width: 200px;
+        width: 250px;
     }
 }
 
