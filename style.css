@@ -103,7 +103,7 @@ ul {
 @media (max-width: 768px) {
     .link {
         font-size: 18px;
-        width: max-content;
+        width: 200px;
     }
 }
 
